@@ -69,9 +69,6 @@ function ClientForm() {
                     <img src="logo.png" width="189.15" height="20.53" alt="ShareEnergy Logo" />
                 </a>
             </header>
-            <div>
-                <div>Otavio</div>
-            </div>
             <form className='client-form' onSubmit={handleSubmit}>
                 {success && <div className='success'>Cadastro realizado com sucesso</div>}
                 <label htmlFor="name">Nome:</label>
