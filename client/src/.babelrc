@@ -1,0 +1,7 @@
+{
+    "presets": [
+      "@babel/preset-typescript", // habilita o suporte ao TypeScript
+      "@babel/preset-react" // habilita o suporte ao React
+    ]
+  }
+  

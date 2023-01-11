@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container .header span {
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.container form {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container form .inputContainer {
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container form .inputContainer input {
+
+    display: flex;
+    flex-direction: flex;
+    align-items: flex-start;
+    padding: 16px;
+    width: 300px;
+    height: 20px;
+
+    border: 1px solid #5c73db;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+#chkbox {
+    margin-bottom: 20px;
+
+}
+
+.container form a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    padding-top: 15px;
+
+    padding-bottom: 15px;
+    color: #5c73db;
+}
+
+.container form .button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.container form .button {
+
+    display: flex;
+    margin-top: 2px;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    gap: 8px;
+    width: 350px;
+    height: 48px;
+    background: #4763E4;
+    border-radius: 12px;
+
+}
